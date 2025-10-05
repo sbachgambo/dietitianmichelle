@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Dietitian Michelle | Book Your Consultation</title>
+    <meta name="description" content="Book a consultation with Dietitian Michelle. Get professional nutrition guidance for weight management, diabetes care, and personalized diet plans.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="logo">
+                    <a href="index.html" class="logo-link">
+                    <img src="/images/logo.png" alt="Dietitian Michelle - Registered Dietitian and Nutrition Expert" 
+                    class="logo-img">
+                    </a>
+            </div>
+            
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="blog.html" class="nav-link">Blog</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1>Get In Touch</h1>
+                <p>Ready to start your journey to better health? Book your consultation today.</p>
+            </div>
+        </section>
+
+        <!-- Contact & Booking Section -->
+        <section class="contact-booking">
+            <div class="container">
+                <div class="contact-grid">
+                    <!-- Contact Information -->
+                    <div class="contact-info">
+                        <h2>Contact Information</h2>
+                        <p class="contact-intro">Choose your preferred method to reach out. I'm here to help you achieve your health goals.</p>
+                        
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <div class="method-icon">📞</div>
+                                <div class="method-details">
+                                    <h3>Phone & WhatsApp</h3>
+                                    <p>Available for calls and messages</p>
+                                    <div class="phone-numbers">
+                                        <a href="tel:07089873497" class="phone-link">07089873497</a>
+                                        <a href="tel:09046758079" class="phone-link">09046758079</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="contact-method">
+                                <div class="method-icon">🌐</div>
+                                <div class="method-details">
+                                    <h3>Website & Social Media</h3>
+                                    <p>Connect with me online</p>
+                                    <div class="website-links">
+                                        <a href="http://www.dietitianmichelle.com" target="_blank" class="website-link">www.dietitianmichelle.com</a>
+                                        <a href="http://www.citadelnutritionconsult.com" target="_blank" class="website-link">www.citadelnutritionconsult.com</a>
+                                        <a href="https://youtube.com/dietitianmichelle" target="_blank" class="social-link">YouTube Channel</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="contact-method">
+                                <div class="method-icon">📻</div>
+                                <div class="method-details">
+                                    <h3>Diet Talk Radio Show</h3>
+                                    <p>Tune in every Tuesday for nutrition advice</p>
+                                    <div class="radio-info">
+                                        <p><strong>Dr. Fish Radio 90.1 FM</strong></p>
+                                        <p>Every Tuesday, 5:00 PM - 5:45 PM</p>
+                                        <a href="https://youtube.com/dietitianmichelle" target="_blank" class="radio-link">Watch replays on YouTube</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Quick Response Info -->
+                        <div class="response-info">
+                            <h3>What to Expect</h3>
+                            <ul class="expectation-list">
+                                <li>✅ Response within 24 hours</li>
+                                <li>✅ Free 15-minute discovery call available</li>
+                                <li>✅ Flexible appointment scheduling</li>
+                                <li>✅ Virtual and in-person consultations</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Booking Form -->
+                    <div class="booking-form">
+                        <h2>Book Your Consultation</h2>
+                        <p class="form-intro">Fill out the form below and I'll get back to you within 24 hours to schedule your appointment.</p>
+                        
+                        <form class="appointment-form" id="bookingForm">
+                            <div class="form-group">
+                                <label for="fullName">Full Name *</label>
+                                <input type="text" id="fullName" name="fullName" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone">Phone Number *</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="service">Service Interested In *</label>
+                                <select id="service" name="service" required>
+                                    <option value="">Select a service</option>
+                                    <option value="personalized-diet">Personalized Diet Plans</option>
+                                    <option value="diabetes-management">Diabetes Management</option>
+                                    <option value="weight-management">Weight Management</option>
+                                    <option value="corporate-nutrition">Corporate Nutrition</option>
+                                    <option value="not-sure">Not Sure - Need Guidance</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="goals">Health Goals & Concerns *</label>
+                                <textarea id="goals" name="goals" rows="4" placeholder="Please describe your main health goals, concerns, or any specific conditions..." required></textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="preferredContact">Preferred Contact Method</label>
+                                <select id="preferredContact" name="preferredContact">
+                                    <option value="">Select preferred method</option>
+                                    <option value="phone">Phone Call</option>
+                                    <option value="whatsapp">WhatsApp Message</option>
+                                    <option value="email">Email</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="urgency">When would you like to start?</label>
+                                <select id="urgency" name="urgency">
+                                    <option value="">Select timing</option>
+                                    <option value="asap">As soon as possible</option>
+                                    <option value="1-week">Within 1 week</option>
+                                    <option value="2-weeks">Within 2 weeks</option>
+                                    <option value="1-month">Within 1 month</option>
+                                    <option value="flexible">Flexible timing</option>
+                                </select>
+                            </div>
+
+                            <div class="form-submit">
+                                <button type="submit" class="btn btn-primary btn-full">Send Booking Request</button>
+                                <p class="form-note">I'll contact you within 24 hours to confirm your appointment details.</p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="contact-faq">
+            <div class="container">
+                <h2>Frequently Asked Questions</h2>
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <h3>What happens during the first consultation?</h3>
+                        <p>The initial consultation includes a comprehensive health assessment, discussion of your goals, medical history review, and development of a personalized approach to your nutrition needs.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>How long are the consultation sessions?</h3>
+                        <p>Initial consultations typically last 60-90 minutes. Follow-up sessions are usually 30-45 minutes, depending on your needs and progress.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Do you offer virtual consultations?</h3>
+                        <p>Yes! I offer both in-person and virtual consultations via video call to accommodate your schedule and preferences.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>What are your consultation fees?</h3>
+                        <p>Fees vary based on the service and program length. I'll provide complete pricing information when we schedule your consultation to ensure transparency.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Do you accept insurance?</h3>
+                        <p>While I don't directly bill insurance companies, I can provide documentation and receipts that you may submit to your insurance provider for possible reimbursement.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Can you help with specific medical conditions?</h3>
+                        <p>Yes, I specialize in diabetes management, weight-related issues, and various health conditions. I work collaboratively with your healthcare team when needed.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Emergency Notice -->
+        <section class="emergency-notice">
+            <div class="container">
+                <div class="notice-content">
+                    <div class="notice-icon">⚠️</div>
+                    <div class="notice-text">
+                        <h3>Medical Emergency Notice</h3>
+                        <p>If you are experiencing a medical emergency, please contact your local emergency services immediately or go to the nearest hospital. This consultation service is for non-emergency nutritional guidance and should not replace emergency medical care.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Dietitian Michelle</h3>
+                    <p>Guiding you to better health through science-backed nutrition and compassionate care.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Me</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>Phone: 07089873497</p>
+                    <p>Email: info@dietitianmichelle.com</p>
+                    <p>Website: www.dietitianmichelle.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Dietitian Michelle. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

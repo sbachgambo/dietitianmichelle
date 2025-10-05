@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Dietitian Michelle | Nutrition Tips & Health Advice</title>
+    <meta name="description" content="Expert nutrition articles, weight loss tips, diabetes management advice, and healthy recipes from Registered Dietitian Michelle.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <nav class="nav container">
+                <div class="logo">
+                    <a href="index.html" class="logo-link">
+                    <img src="/images/logo.png" alt="Dietitian Michelle - Registered Dietitian and Nutrition Expert" 
+                    class="logo-img">
+                    </a>
+                </div>
+            
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="blog.html" class="nav-link active">Blog</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1>Nutrition Blog</h1>
+                <p>Evidence-based articles, practical tips, and the latest nutrition insights to support your health journey</p>
+            </div>
+        </section>
+
+        <!-- Featured Post -->
+        <section class="featured-post">
+            <div class="container">
+                <div class="featured-content">
+                    <div class="featured-image">
+                        <div class="image-placeholder" style="height: 400px;">Featured Post Image</div>
+                    </div>
+                    <div class="featured-text">
+                        <span class="featured-badge">Featured Article</span>
+                        <h2>Snacks For Healthy Weight Gain</h2>
+                        <p class="post-excerpt">Discover natural, nutritious, and delicious snacks that can help you gain weight healthily without compromising your overall wellbeing. Perfect for those struggling with underweight issues or looking to build muscle mass.</p>
+                        <div class="post-meta">
+                            <span class="post-date">Published: January 15, 2024</span>
+                            <span class="read-time">5 min read</span>
+                        </div>
+                        <a href="blog-posts/snacks-weight-gain.html" class="btn btn-primary">Read Full Article</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Content -->
+        <section class="blog-content">
+            <div class="container">
+                <div class="blog-layout">
+                    <!-- Main Blog Posts -->
+                    <div class="blog-main">
+                        <div class="blog-header">
+                            <h2>Latest Articles</h2>
+                            <div class="blog-filters">
+                                <button class="filter-btn active" data-filter="all">All Topics</button>
+                                <button class="filter-btn" data-filter="weight-management">Weight Management</button>
+                                <button class="filter-btn" data-filter="diabetes">Diabetes</button>
+                                <button class="filter-btn" data-filter="nutrition-tips">Nutrition Tips</button>
+                                <button class="filter-btn" data-filter="recipes">Recipes</button>
+                            </div>
+                        </div>
+
+                        <div class="blog-grid">
+                            <!-- Article 1 -->
+                            <article class="blog-card" data-category="weight-management">
+                                <div class="card-image">
+                                    <div class="image-placeholder" style="height: 200px;">Weight Loss Image</div>
+                                </div>
+                                <div class="card-content">
+                                    <span class="category-tag weight-management">Weight Management</span>
+                                    <h3>5 Common Weight Loss Mistakes and How to Avoid Them</h3>
+                                    <p class="card-excerpt">Learn about the most common pitfalls people encounter on their weight loss journey and practical strategies to overcome them for lasting results.</p>
+                                    <div class="card-meta">
+                                        <span class="post-date">Jan 10, 2024</span>
+                                        <span class="read-time">4 min read</span>
+                                    </div>
+                                    <a href="blog-posts/weight-loss-mistakes.html" class="card-link">Read More →</a>
+                                </div>
+                            </article>
+
+                            <!-- Article 2 -->
+                            <article class="blog-card" data-category="diabetes">
+                                <div class="card-image">
+                                    <div class="image-placeholder" style="height: 200px;">Diabetes Image</div>
+                                </div>
+                                <div class="card-content">
+                                    <span class="category-tag diabetes">Diabetes Care</span>
+                                    <h3>Understanding Blood Sugar: A Complete Guide for Diabetes Management</h3>
+                                    <p class="card-excerpt">Comprehensive guide on monitoring and managing blood sugar levels through diet, exercise, and lifestyle modifications.</p>
+                                    <div class="card-meta">
+                                        <span class="post-date">Jan 5, 2024</span>
+                                        <span class="read-time">6 min read</span>
+                                    </div>
+                                    <a href="blog-posts/blood-sugar-guide.html" class="card-link">Read More →</a>
+                                </div>
+                            </article>
+
+                            <!-- Article 3 -->
+                            <article class="blog-card" data-category="nutrition-tips">
+                                <div class="card-image">
+                                    <div class="image-placeholder" style="height: 200px;">Meal Planning Image</div>
+                                </div>
+                                <div class="card-content">
+                                    <span class="category-tag nutrition-tips">Nutrition Tips</span>
+                                    <h3>Meal Planning 101: Save Time, Money and Eat Healthier</h3>
+                                    <p class="card-excerpt">Step-by-step guide to effective meal planning that fits your busy lifestyle while ensuring optimal nutrition and variety.</p>
+                                    <div class="card-meta">
+                                        <span class="post-date">Jan 2, 2024</span>
+                                        <span class="read-time">5 min read</span>
+                                    </div>
+                                    <a href="blog-posts/meal-planning-guide.html" class="card-link">Read More →</a>
+                                </div>
+                            </article>
+
+                            <!-- Article 4 -->
+                            <article class="blog-card" data-category="recipes">
+                                <div class="card-image">
+                                    <div class="image-placeholder" style="height: 200px;">Recipe Image</div>
+                                </div>
+                                <div class="card-content">
+                                    <span class="category-tag recipes">Recipes</span>
+                                    <h3>5 Diabetes-Friendly Breakfast Recipes That Actually Taste Great</h3>
+                                    <p class="card-excerpt">Start your day right with these delicious, blood-sugar-friendly breakfast options that are quick to prepare and packed with nutrition.</p>
+                                    <div class="card-meta">
+                                        <span class="post-date">Dec 28, 2023</span>
+                                        <span class="read-time">3 min read</span>
+                                    </div>
+                                    <a href="blog-posts/diabetes-breakfast-recipes.html" class="card-link">Read More →</a>
+                                </div>
+                            </article>
+
+                            <!-- Article 5 -->
+                            <article class="blog-card" data-category="weight-management">
+                                <div class="card-image">
+                                    <div class="image-placeholder" style="height: 200px;">Metabolism Image</div>
+                                </div>
+                                <div class="card-content">
+                                    <span class="category-tag weight-management">Weight Management</span>
+                                    <h3>Boosting Your Metabolism: Facts vs. Myths</h3>
+                                    <p class="card-excerpt">Separate fact from fiction when it comes to metabolism boosters and learn scientifically proven ways to enhance your metabolic health.</p>
+                                    <div class="card-meta">
+                                        <span class="post-date">Dec 22, 2023</span>
+                                        <span class="read-time">4 min read</span>
+                                    </div>
+                                    <a href="blog-posts/metabolism-facts.html" class="card-link">Read More →</a>
+                                </div>
+                            </article>
+
+                            <!-- Article 6 -->
+                            <article class="blog-card" data-category="nutrition-tips">
+                                <div class="card-image">
+                                    <div class="image-placeholder" style="height: 200px;">Hydration Image</div>
+                                </div>
+                                <div class="card-content">
+                                    <span class="category-tag nutrition-tips">Nutrition Tips</span>
+                                    <h3>The Importance of Hydration: Beyond Just Drinking Water</h3>
+                                    <p class="card-excerpt">Explore the crucial role of hydration in overall health, including cognitive function, digestion, and weight management strategies.</p>
+                                    <div class="card-meta">
+                                        <span class="post-date">Dec 18, 2023</span>
+                                        <span class="read-time">4 min read</span>
+                                    </div>
+                                    <a href="blog-posts/hydration-guide.html" class="card-link">Read More →</a>
+                                </div>
+                            </article>
+                        </div>
+
+                        <!-- Load More Button -->
+                        <div class="load-more">
+                            <button class="btn btn-secondary" id="loadMore">Load More Articles</button>
+                        </div>
+                    </div>
+
+                    <!-- Sidebar -->
+                    <aside class="blog-sidebar">
+                        <!-- Search Box -->
+                        <div class="sidebar-widget">
+                            <h3>Search Articles</h3>
+                            <div class="search-box">
+                                <input type="text" placeholder="Search topics..." id="searchInput">
+                                <button class="search-btn">🔍</button>
+                            </div>
+                        </div>
+
+                        <!-- Categories -->
+                        <div class="sidebar-widget">
+                            <h3>Categories</h3>
+                            <ul class="categories-list">
+                                <li><a href="#" data-category="weight-management">Weight Management <span class="count">(12)</span></a></li>
+                                <li><a href="#" data-category="diabetes">Diabetes Care <span class="count">(8)</span></a></li>
+                                <li><a href="#" data-category="nutrition-tips">Nutrition Tips <span class="count">(15)</span></a></li>
+                                <li><a href="#" data-category="recipes">Healthy Recipes <span class="count">(6)</span></a></li>
+                                <li><a href="#" data-category="exercise">Exercise & Fitness <span class="count">(5)</span></a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Diet Talk Promo -->
+                        <div class="sidebar-widget diet-talk-promo">
+                            <h3>Diet Talk Radio Show</h3>
+                            <p>Listen to my weekly radio show for live Q&A and expert nutrition advice.</p>
+                            <div class="radio-schedule">
+                                <p><strong>Every Tuesday</strong><br>5:00 PM - 5:45 PM</p>
+                                <p><strong>Dr. Fish Radio 90.1 FM</strong></p>
+                            </div>
+                            <a href="https://youtube.com/dietitianmichelle" target="_blank" class="btn btn-secondary btn-small">Watch on YouTube</a>
+                        </div>
+
+                        <!-- E-books Promo -->
+                        <div class="sidebar-widget ebooks-promo">
+                            <h3>My E-books</h3>
+                            <p>Get in-depth guides on weight loss and diabetes management.</p>
+                            <div class="ebooks-list">
+                                <div class="ebook-item">
+                                    <h4>Weight Loss Mastery</h4>
+                                    <p>Complete guide to sustainable weight loss</p>
+                                </div>
+                                <div class="ebook-item">
+                                    <h4>Diabetes Control Guide</h4>
+                                    <p>Managing diabetes through nutrition</p>
+                                </div>
+                            </div>
+                            <a href="services.html" class="btn btn-primary btn-small">Learn More</a>
+                        </div>
+
+                        <!-- Newsletter -->
+                        <div class="sidebar-widget newsletter">
+                            <h3>Stay Updated</h3>
+                            <p>Get the latest nutrition tips and articles delivered to your inbox.</p>
+                            <form class="newsletter-form">
+                                <input type="email" placeholder="Your email address" required>
+                                <button type="submit" class="btn btn-primary btn-small btn-full">Subscribe</button>
+                            </form>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Dietitian Michelle</h3>
+                    <p>Guiding you to better health through science-backed nutrition and compassionate care.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Me</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>Phone: 07089873497</p>
+                    <p>Email: info@dietitianmichelle.com</p>
+                    <p>Website: www.dietitianmichelle.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Dietitian Michelle. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
